@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Child Combinator</title>
+
+    <style>
+      .div-element > p {
+        color: green;
+        font-weight: bold;
+        font-size: 2em;
+        letter-spacing: 3px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div-element">
+      <p>Direct child of div</p>
+      <div>
+        <p>Nested child</p>
+      </div>
+    </div>
+  </body>
+</html>

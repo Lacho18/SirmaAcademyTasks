@@ -1,0 +1,15 @@
+.highlight {
+    color: red;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.common-style {
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2px;
+    color: green;
+}
