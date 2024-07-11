@@ -1,0 +1,393 @@
+@font-face {
+    font-family: 'Aachen BT';
+    src: url("../assets/fonts/Aachen_Regular_font.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+header,
+main,
+footer {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+section {
+    width: 100%;
+    position: relative;
+    z-index: 50;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(40, 40, 45, 0.9490196078431372);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 84px;
+    padding-right: 84px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+
+}
+
+header a {
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 300px;
+    color: white;
+    font-family: "Aachen BT";
+}
+
+header div {
+    align-self: center;
+}
+
+.middle-header {
+    flex-basis: 500px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-header {
+    flex-basis: 475px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*---------------------------------------------------------------------------*/
+/*Section home*/
+
+.home {
+    height: 852px;
+    background-image: url("../assets/images/BackgroundHome.png");
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.background-home {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    background-color: rgba(40, 40, 45, 0.9490196078431372);
+    opacity: 0.9;
+}
+
+.home-main-div {
+    position: relative;
+    z-index: 18;
+    display: flex;
+    padding-left: 45px;
+    padding-bottom: 120px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.home-main-div h1 {
+    font-size: 67px;
+    letter-spacing: 1px;
+    color: #e58f00;
+    font-family: "Aachen BT";
+}
+
+.home-main-div p {
+    width: 523px;
+    height: 83px;
+    font-size: 25px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-family: "Aachen BT";
+}
+
+.home-main-div button {
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #e58f00;
+    font-size: 25px;
+    letter-spacing: 0px;
+    color: #28282d;
+    font-family: "Aachen BT";
+}
+
+.text-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 360px;
+    padding-left: 60px;
+}
+
+/*--------------------------------------------------------------------*/
+/*Section about*/
+
+.about {
+    background-color: rgb(30, 30, 35);
+    height: 880px;
+    color: white;
+    box-sizing: border-box;
+    padding: 110px;
+}
+
+.about-main-div {
+    display: flex;
+}
+
+.about-main-div img {
+    margin: 10px;
+}
+
+.text-about {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+.text-about h1 {
+    font-size: 50px;
+    color: #ffffff;
+    font-family: "Aachen BT";
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+
+.text-about p {
+    width: 529px;
+    height: 317px;
+    font-size: 33px;
+    color: #ffffff;
+    font-family: "Aachen BT";
+}
+
+/*--------------------------------------------------------------------*/
+/*Section quality*/
+
+.quality {
+    height: 1964px;
+    background-color: rgb(30, 30, 35);
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-top: 80px;
+}
+
+.quality img {
+    position: absolute;
+}
+
+#shapeImage {
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.text-quality {
+    position: absolute;
+    top: 450px;
+    left: 150px;
+    z-index: 3;
+}
+
+#plate1 {
+    left: 70%;
+    top: 0;
+}
+
+#plate2 {
+    bottom: 150px;
+    right: 0;
+}
+
+#plate3 {
+    bottom: 210px;
+    left: -100px;
+}
+
+/*--------------------------------------------------------------------*/
+/*Section gallery*/
+
+.gallery {
+    height: 1500px;
+    background-color: rgb(30, 30, 35);
+    box-sizing: border-box;
+    padding: 70px;
+}
+
+.gallery-main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery-main-div>div {
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-main-div img {
+    padding-top: 30px;
+}
+
+/*--------------------------------------------------------------------*/
+/*Section enjoy*/
+
+.enjoy {
+    height: 960px;
+    background-image: url("../assets/images/EnjoyBackground.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enjoy-div {
+    opacity: 0.800;
+    width: 726px;
+    height: 574px;
+    background-color: rgba(29, 29, 35, 0.8);
+    border: 10px solid #e58f00;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    color: #ffffff;
+}
+
+/*--------------------------------------------------------------------*/
+/*Section menu*/
+
+.menu {
+    height: 1080px;
+    background-color: rgb(30, 30, 35);
+    box-sizing: border-box;
+    padding: 70px;
+}
+
+.menu-main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.menu-main-div>h1 {
+    font-size: 50px;
+    color: #ffffff;
+    font-family: "Aachen BT";
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu-cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 405px;
+    height: 583px;
+}
+
+.card img {
+    width: 400px;
+    height: 360px;
+    min-height: 360px;
+    object-fit: cover;
+}
+
+.card h1 {
+    font-size: 29px;
+    letter-spacing: 0px;
+    line-height: 117px;
+    color: #e58f00;
+    font-family: "Aachen BT";
+}
+
+.card p {
+    width: 396px;
+    height: 80px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    line-height: 21px;
+    color: #ffffff;
+    font-family: "Aachen BT";
+}
+
+.card h2 {
+    font-size: 25px;
+    letter-spacing: 0px;
+    line-height: 117px;
+    color: #e58f00;
+    font-family: "Aachen BT";
+}
+
+/*--------------------------------------------------------------------*/
+/*Section best-meal*/
+
+.best-meal {
+    height: 504px;
+    background-color: #e58f00;
+}
+
+.best-meal-main-div {
+    display: flex;
+}
+
+.best-meal-main-div img {
+    position: relative;
+    top: -65px;
+}
+
+/*--------------------------------------------------------------------*/
+/*Footer*/
+
+footer {
+    height: 436px;
+    background-color: #35353b;
+}
+
+.footer-div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.text-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 824px;
+    height: 16px;
+    font-size: 21px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #e7e6e6;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.social-networks {
+    display: flex;
+    justify-content: space-between;
+    width: 267px;
+}
