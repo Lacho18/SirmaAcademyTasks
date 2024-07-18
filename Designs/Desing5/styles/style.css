@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 110px;
+    z-index: 100;
+}
+
+header>div {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    align-items: flex-end;
+    box-sizing: border-box;
+    padding: 65px 60px;
+}
+
+.menus {
+    flex-basis: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input-header {
+    flex-basis: 40%;
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header a {
+    font-size: 30px;
+    line-height: 38px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Maven Pro";
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header input {
+    font-size: 23px;
+    line-height: 31px;
+    color: #305488;
+    font-weight: 400;
+    font-family: "Maven Pro";
+    width: 291px;
+    height: 44px;
+    border-radius: 18px;
+    background-color: #ffffff;
+    padding: 0 20px;
+    align-self: flex-end;
+}
+
+/*---------------------------------------*/
+/*Hero section*/
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+section {
+    width: 100%;
+}
+
+.hero-section {
+    height: 1090px;
+    background-image: url("../assets/images/HeroBackground.png");
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.hero-div {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 50;
+    position: relative;
+    margin-bottom: 125px;
+}
+
+.hero-div h1 {
+    font-size: 125px;
+    line-height: 150px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Maven Pro";
+    text-align: center;
+}
+
+.hero-div p {
+    width: 662px;
+    height: 80px;
+    font-size: 17px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Maven Pro";
+    text-align: center;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 90px;
+}
+
+.hero-div button {
+    width: 224px;
+    height: 47px;
+    border-radius: 18px;
+    background: #ffffff;
+    font-size: 30px;
+    line-height: 39px;
+    color: transparent;
+    background-clip: text;
+    font-weight: 900;
+    font-family: "Maven Pro";
+    text-align: center;
+}
+
+/*---------------------------------------*/
+/*Section 1*/
+.first-section {
+    height: 3025px;
+    background-color: #070d38;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.part-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 220px;
+}
+
+.part-1 h1 {
+    font-size: 129px;
+    line-height: 146px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Maven Pro";
+    margin-left: 130px;
+}
+
+.part-1-contect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.part-1-contect p {
+    width: 817px;
+    height: 310px;
+    font-size: 28px;
+    line-height: 37px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Maven Pro";
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 100px;
+}
+
+.part-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.part-2 h1,
+.part-2 h2 {
+    line-height: 101px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Maven Pro";
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.part-2 h1 {
+    font-size: 104px;
+}
+
+.part-2 h2 {
+    font-size: 90px;
+}
+
+.part-2 p {
+    width: 1119px;
+    height: 148px;
+    font-size: 28px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Maven Pro";
+    text-align: center;
+    padding-top: 280px;
+}
+
+.images-part2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.big-iamge-part-2 {
+    margin: 80px;
+}
+
+/*---------------------------------------------------*/
+/*Discount*/
+
+.discount {
+    height: 218px;
+    background-color: #01031d;
+}
+
+.discount>div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.yellow-circle {
+    font-size: 47px;
+    line-height: 50px;
+    color: #070d38;
+    font-weight: 900;
+    font-family: "Maven Pro";
+    text-align: center;
+    width: 147px;
+    height: 147px;
+    border-radius: 74px;
+    background-color: #fcf300;
+    justify-self: flex-end;
+}
+
+.discount-text {
+    font-size: 60px;
+    line-height: 65px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Maven Pro";
+}
+
+/*------------------------------------------------*/
+/*Big Section*/
+.bigSection {
+    height: 3600px;
+    background-color: #070d38;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.levels-div {
+    /*padding-top: 200px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 790px;
+}
+
+.levels-div>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.levels-div>div button {
+    width: 626px;
+    height: 220px;
+    border-radius: 60px;
+    background-color: #ffffff;
+    font-size: 95px;
+    line-height: 176px;
+    color: #00043a;
+    font-weight: 500;
+    font-family: "Maven Pro";
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.about-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black-div-about {
+    width: 840px;
+    height: 870px;
+    background-color: #01031d;
+    color: white;
+    box-sizing: border-box;
+    padding: 120px 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.black-div-about p {
+    width: 513px;
+    height: 435px;
+    font-size: 25px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Maven Pro";
+    text-align: center;
+}
+
+.about {
+    font-size: 148px;
+    line-height: 142px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Maven Pro";
+    text-align: right;
+    padding-right: 110px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media h1 {
+    font-size: 76px;
+    line-height: 74px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Maven Pro";
+}
+
+.icons,
+.connections {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.icons div {
+    width: 470px;
+    height: 312px;
+    background-color: #01031d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.connections div {
+    width: 470px;
+    height: 312px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: 0.502;
+    font-size: 40px;
+    line-height: 38px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Maven Pro";
+    padding-top: 250px;
+}
+
+/*----------------------------------------------------*/
+/*Footer*/
+
+footer {
+    width: 100%;
+    background-color: #01031d;
+    font-size: 32px;
+    line-height: 48px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Maven Pro";
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: -1px;
+}
